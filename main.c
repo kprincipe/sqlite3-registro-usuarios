@@ -5,9 +5,9 @@
 #include "deps/sqlite/sqlite3.h"
 
 #define trim_left(x)            \
-    int __i = 0;                  \
-    while(x[__i++] != '\n'); \
-    x[__i - 1] = '\0';       \
+    int __i = 0;                \
+    while(x[__i++] != '\n');    \
+    x[__i - 1] = '\0';          \
 
 
 int main(void) {
